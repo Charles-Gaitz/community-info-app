@@ -5,8 +5,11 @@ function HomePage() {
   const [city, setCity] = useState("Houston");
 
   return (
+    
     <div className="p-4 max-w-xl mx-auto">
       <h1 className="text-2xl font-bold mb-4">Texas Community Info</h1>
+      <button className="btn btn-primary">Test Bootstrap</button>
+
       <input
         type="text"
         value={city}
